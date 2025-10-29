@@ -9,8 +9,8 @@ from joblib import dump
 
 model_path='./artifact/model/trained_model.joblib'
 vectorizer_path = './artifact/vectorizer/vectorizer.joblib'
-# os.makedirs(os.path.dirname(model_path), exist_ok=True)
-# os.makedirs(os.path.dirname(vectorizer_path), exist_ok=True)
+os.makedirs(os.path.dirname(model_path), exist_ok=True)
+os.makedirs(os.path.dirname(vectorizer_path), exist_ok=True)
 
 def preprocessing_step(sentence):
     sentence = sentence.lower()
