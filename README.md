@@ -2,7 +2,7 @@
 
 SpamScreener is a lightweight NLP app that classifies email content as **SPAM** or **HAM** using a scikit-learn . Designed for fast predictions and easy integration into email workflows.
 
----
+
 
 ## 🚀 Overview
 
@@ -11,9 +11,9 @@ SpamScreener is a lightweight NLP app that classifies email content as **SPAM** 
 - 🧠 Model: scikit-learn pipeline (BOW(CountVectorizer()) + classifier(MultinomialNB()))
 - 📊 Accuracy: 99%
 
----
 ### 📸 Demo
 
+---
 ![image](resources/demo.jpg)  
 
 ---
@@ -21,7 +21,6 @@ SpamScreener is a lightweight NLP app that classifies email content as **SPAM** 
 
 Support teams often face inbox overload. SpamScreener flags spam instantly, helping teams focus on real customer queries.
 
----
 
 ## 💼 Business Impact
 
@@ -29,7 +28,6 @@ Support teams often face inbox overload. SpamScreener flags spam instantly, help
 - ⏱️ Saves manual filtering time  
 - 🔗 Integrates into email systems
 
----
 🛠️ Tech Stack
 🐍 Python
 
@@ -41,13 +39,11 @@ Support teams often face inbox overload. SpamScreener flags spam instantly, help
 
 🌐 Streamlit (UI)
 
----
 ## 📦 Dataset
 
 - 📄 Total Emails: 5,572  
 - 🎯 Labels: `spam`, `ham`
 
----
 ## 📈 Model Performance
  ![report](./resources/image.jpg)
 
@@ -72,3 +68,5 @@ Result displayed as SPAM or HAM
 ```   bash
     streamlit run app.py
    ```
+
+---
