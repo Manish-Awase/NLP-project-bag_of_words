@@ -14,7 +14,7 @@ SpamScreener is a lightweight NLP app that classifies email content as **SPAM** 
 ---
 ### 📸 Demo
 
-**[]()**  
+![image](resources/demo.jpg)  
 
 ---
 ## 📖 Scenario
@@ -49,7 +49,7 @@ Support teams often face inbox overload. SpamScreener flags spam instantly, help
 
 ---
 ## 📈 Model Performance
- ![report](./resources/image.jpeg)
+ ![report](./resources/image.jpg)
 
 ---
 ## 🧪 How It Works
