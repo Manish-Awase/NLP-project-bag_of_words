@@ -58,6 +58,7 @@ Model predicts label
 Result displayed as SPAM or HAM
 
 ---
+# Clone the Repository
 
 # Install dependencies
 ```  bash
